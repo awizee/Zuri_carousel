@@ -13,7 +13,7 @@ function reset() {
 //init slider
 function startSlide() {
   reset();
-  sliderImages[0].style.display = "block";
+  sliderImages[0].style.display = click;
 }
 
 //show prev
@@ -31,7 +31,7 @@ function slideRight() {
 }
 
 //left arrow click
-arrowLeft.addEventListener("mouseover", function () {
+arrowLeft.addEventListener("click", function () {
   if (current === 0) {
     current = sliderImages.length;
   }
@@ -39,7 +39,7 @@ arrowLeft.addEventListener("mouseover", function () {
 });
 
 //right arrow click
-arrowRight.addEventListener("mouseover", function () {
+arrowRight.addEventListener("click", function () {
   if (current === sliderImages.length - 1) {
     current = -1;
   }
