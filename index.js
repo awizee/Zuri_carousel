@@ -14,6 +14,7 @@ function reset() {
 function startSlide() {
   reset();
   sliderImages[0].style.display = "block";
+  sliderImages.style.transition = "1s ease-in-out";
 }
 
 //show prev
@@ -31,7 +32,7 @@ function slideRight() {
 }
 
 //left arrow click
-arrowLeft.addEventListener("click", function () {
+arrowLeft.addEventListener("mouseover", function () {
   if (current === 0) {
     current = sliderImages.length;
   }
@@ -39,7 +40,7 @@ arrowLeft.addEventListener("click", function () {
 });
 
 //right arrow click
-arrowRight.addEventListener("click", function () {
+arrowRight.addEventListener("mouseover", function () {
   if (current === sliderImages.length - 1) {
     current = -1;
   }

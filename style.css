@@ -9,15 +9,6 @@ body,
   height: 100vh;
   overflow-x: hidden;
 }
-main {
-  margin: auto;
-  width: 90%;
-  height: 100vh;
-}
-main div {
-  width: 50%;
-  height: 10rem;
-}
 
 .wrap {
   position: relative;
@@ -30,22 +21,22 @@ main div {
 }
 
 .slide1 {
-  background-image: url("../images/image1.jpg");
+  background-image: url("image1.jpg");
 }
 .slide2 {
-  background-image: url("../images/image2.jpg");
+  background-image: url("image2.jpg");
 }
 .slide3 {
-  background-image: url("../images/image3.jpg");
+  background-image: url("image3.jpg");
 }
 .slide4 {
-  background-image: url("../images/image4.jpg");
+  background-image: url("image4.jpg");
 }
 .slide5 {
-  background-image: url("../images/image5.jpg");
+  background-image: url("image5.jpg");
 }
 .slide6 {
-  background-image: url("../images/image6.jpg");
+  background-image: url("image6.jpg");
 }
 
 .slide-content {
@@ -76,7 +67,7 @@ main div {
   margin-left: 90px;
 }
 #arrow-left:hover {
-  border-color: transparent #fff transparent transparent;
+  border-color: transparent rgba(0, 0, 0, 0.5) transparent transparent;
 }
 #arrow-right {
   border-width: 30px 0px 30px 40px;
@@ -85,5 +76,5 @@ main div {
   margin-right: 90px;
 }
 #arrow-right:hover {
-  border-color: transparent transparent transparent #fff;
+  border-color: transparent transparent transparent rgba(0, 0, 0, 0.5);
 }
