@@ -14,7 +14,6 @@ function reset() {
 function startSlide() {
   reset();
   sliderImages[0].style.display = "block";
-  sliderImages.style.transition = "1s ease-in-out";
 }
 
 //show prev

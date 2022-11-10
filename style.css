@@ -9,6 +9,14 @@ body,
   height: 100vh;
   overflow-x: hidden;
 }
+h1 {
+  font-family: "Courier New", Courier, monospace;
+  color: #fff;
+  text-align: center;
+  background-color: rgb(92, 84, 84);
+  width: 30%;
+  margin: auto;
+}
 
 .wrap {
   position: relative;
@@ -77,4 +85,7 @@ body,
 }
 #arrow-right:hover {
   border-color: transparent transparent transparent rgba(0, 0, 0, 0.5);
+}
+.slide-content:hover {
+  transition: 1s content linear 1s;
 }
