@@ -10,12 +10,10 @@ body,
   overflow-x: hidden;
 }
 h1 {
-  font-family: "Courier New", Courier, monospace;
-  color: #fff;
   text-align: center;
-  background-color: rgb(92, 84, 84);
-  width: 30%;
-  margin: auto;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: 800;
+  color: #346868;
 }
 
 .wrap {
@@ -75,7 +73,7 @@ h1 {
   margin-left: 90px;
 }
 #arrow-left:hover {
-  border-color: transparent rgba(0, 0, 0, 0.5) transparent transparent;
+  border-color: transparent rgba(54, 81, 238, 0.53) transparent transparent;
 }
 #arrow-right {
   border-width: 30px 0px 30px 40px;
@@ -84,8 +82,5 @@ h1 {
   margin-right: 90px;
 }
 #arrow-right:hover {
-  border-color: transparent transparent transparent rgba(0, 0, 0, 0.5);
-}
-.slide-content:hover {
-  transition: 1s content linear 1s;
+  border-color: transparent transparent transparent rgba(54, 81, 238, 0.53);
 }

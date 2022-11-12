@@ -13,7 +13,7 @@ function reset() {
 //init slider
 function startSlide() {
   reset();
-  sliderImages[0].style.display = click;
+  sliderImages[0].style.display = "block";
 }
 
 //show prev
